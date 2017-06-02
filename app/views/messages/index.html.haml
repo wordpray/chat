@@ -1,3 +1,12 @@
 .notification
   %p.notification__notice チャットグループが作成されました
 
+.chat-side
+  .chat-side__user
+    .chat-side__user-content
+      %p.chat-side__user-name Username
+      = link_to root_path,class: 'chat-side__user--edit-user'  do
+        %i.fa.fa-cog.fa-fw
+      = link_to root_path ,class: 'chat-side__user--new-group' do
+        %i.fa.fa-pencil-square-o.fa-fw
+
