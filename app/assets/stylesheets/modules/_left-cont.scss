@@ -11,7 +11,6 @@
     font-size:16px;
     padding: 0 20px;
     line-height: 15vh;
-    
     &__user-name{
       float: left;
     }
@@ -20,4 +19,19 @@
       line-height: 15vh;
       color:  white;    }
     }
+    &__groups{
+      padding: 20px;
+    }
+    &__group-name{
+      color: white;
+      font-size: 15px;
+      padding: 0px,0,5px;
+    }
+    &__group-message{
+      color: white;
+      font-size: 11px;
+      padding: 0 0 40px;
+    }
 }
+
+

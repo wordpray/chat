@@ -9,4 +9,8 @@
         %i.fa.fa-cog.fa-fw
       = link_to root_path ,class: 'chat-side__user--new-group' do
         %i.fa.fa-pencil-square-o.fa-fw
-
+  .chat-side__groups
+    %ul.chat-side__groups-lists
+      = render 'group'
+      = render 'group'
+      = render 'group'
