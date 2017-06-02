@@ -14,10 +14,22 @@
     &__user-name{
       float: left;
     }
-    .fa{
+    .chat-side__user--edit-user{
       float: right;
       line-height: 15vh;
-      color:  white;    }
+      color:  white; 
+      position: absolute;
+      top:28px;
+      left: 270px;
+        }
+        .chat-side__user--new-group{
+      float: right;
+      line-height: 15vh;
+      color:  white; 
+      position: absolute;
+      top:28px;
+      left: 250px;
+        }
     }
     &__groups{
       padding: 20px;
